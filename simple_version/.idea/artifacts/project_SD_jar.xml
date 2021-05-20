@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="project_SD:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/project_SD_jar</output-path>
+    <root id="archive" name="project_SD.jar">
+      <element id="module-output" name="project_SD" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../genclass.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,460 @@
+ AIRPORT RHAPSODY - Description of the internal state of the problem
+
+PLANE    PORTER                  DRIVER
+FN BN  Stat CB SR   Stat  Q0 Q1 Q2 Q3 Q4 Q5 S0 S1 S2
+                                                         PASSENGERS
+St0 Si0 NR0 NA0 St1 Si1 NR1 NA1 St2 Si2 NR2 NA2 St3 Si3 NR3 NA3 St4 Si4 NR4 NA4 St5 Si5 NR5 NA5 
+ 1  5   WPL  0  0    PAT   -  -  -  -  -  -  -  -  - 
+DZO FDT  1   0  --- ---  1   0  --- ---  1   0  --- ---  1   0  --- ---  0   0  --- ---  1   0  
+ 1  5   WPL  0  0    PAT   -  -  -  -  -  -  -  -  - 
+DZO FDT  1   0  --- ---  1   0  --- ---  1   0  DZO TRT  1   0  --- ---  0   0  --- ---  1   0  
+ 1  5   WPL  0  0    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  1   0  --- ---  1   0  --- ---  1   0  DZO TRT  1   0  --- ---  0   0  --- ---  1   0  
+ 1  5   WPL  0  0    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  1   0  --- ---  1   0  DZO FDT  1   0  DZO TRT  1   0  --- ---  0   0  --- ---  1   0  
+ 1  5   WPL  0  0    PAT   4  -  -  -  -  -  -  -  - 
+LCP FDT  1   0  --- ---  1   0  LCP FDT  1   0  DZO TRT  1   0  --- ---  0   0  --- ---  1   0  
+ 1  5   WPL  0  0    PAT   4  -  -  -  -  -  -  -  - 
+LCP FDT  1   0  DZO FDT  1   0  LCP FDT  1   0  DZO TRT  1   0  --- ---  0   0  --- ---  1   0  
+ 1  5   WPL  0  0    PAT   4  -  -  -  -  -  -  -  - 
+LCP FDT  1   0  DZO FDT  1   0  LCP FDT  1   0  ATT TRT  1   0  --- ---  0   0  --- ---  1   0  
+ 1  5   WPL  0  0    PAT   4  -  -  -  -  -  -  -  - 
+LCP FDT  1   0  DZO FDT  1   0  LCP FDT  1   0  ATT TRT  1   0  --- ---  0   0  DZO TRT  1   0  
+ 1  5   WPL  0  0    PAT   4  -  -  -  -  -  -  -  - 
+LCP FDT  1   0  LCP FDT  1   0  LCP FDT  1   0  ATT TRT  1   0  --- ---  0   0  DZO TRT  1   0  
+ 1  5   WPL  0  0    PAT   4  -  -  -  -  -  -  -  - 
+LCP FDT  1   0  LCP FDT  1   0  LCP FDT  1   0  ATT TRT  1   0  DZO FDT  0   0  DZO TRT  1   0  
+ 1  5   PHO  0  0    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  1   0  LCP FDT  1   0  LCP FDT  1   0  ATT TRT  1   0  DZO FDT  0   0  DZO TRT  1   0  
+ 1  5   PHO  0  0    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  1   0  LCP FDT  1   0  LCP FDT  1   0  ATT TRT  1   0  EAT FDT  0   0  DZO TRT  1   0  
+ 1  5   PHO  0  0    PAT   -  -  -  -  -  -  4  -  - 
+LCP FDT  1   0  LCP FDT  1   0  LCP FDT  1   0  ATT TRT  1   0  EAT FDT  0   0  DZO TRT  1   0  
+ 1  5   PHO  0  0    PAT   -  -  -  -  -  -  4  -  - 
+LCP FDT  1   0  LCP FDT  1   0  LCP FDT  1   0  ATT TRT  1   0  EAT FDT  0   0  DZO TRT  1   0  
+ 1  5   PHO  0  0    PAT   -  -  -  -  -  -  4  -  - 
+LCP FDT  1   0  LCP FDT  1   0  LCP FDT  1   0  TTR TRT  1   0  EAT FDT  0   0  DZO TRT  1   0  
+ 1  4   STR  0  0    PAT   -  -  -  -  -  -  4  -  - 
+LCP FDT  1   0  LCP FDT  1   0  LCP FDT  1   0  TTR TRT  1   0  EAT FDT  0   0  DZO TRT  1   0  
+ 1  4   STR  0  0    PAT   6  -  -  -  -  -  4  -  - 
+LCP FDT  1   0  LCP FDT  1   0  LCP FDT  1   0  TTR TRT  1   0  EAT FDT  0   0  ATT TRT  1   0  
+ 1  4   PHO  0  1    PAT   6  -  -  -  -  -  4  -  - 
+LCP FDT  1   0  LCP FDT  1   0  LCP FDT  1   0  TTR TRT  1   0  EAT FDT  0   0  ATT TRT  1   0  
+ 1  3   STR  0  1    PAT   -  -  -  -  -  -  4  -  - 
+LCP FDT  1   0  LCP FDT  1   0  LCP FDT  1   0  TTR TRT  1   0  EAT FDT  0   0  ATT TRT  1   0  
+ 1  3   STR  0  2    PAT   -  -  -  -  -  -  4  6  - 
+LCP FDT  1   0  LCP FDT  1   0  LCP FDT  1   0  TTR TRT  1   0  EAT FDT  0   0  TTR TRT  1   0  
+ 1  3   PHO  0  2    PAT   -  -  -  -  -  -  4  6  - 
+LCP FDT  1   0  LCP FDT  1   0  LCP FDT  1   0  TTR TRT  1   0  EAT FDT  0   0  TTR TRT  1   0  
+ 1  2   LBC  1  2    PAT   -  -  -  -  -  -  4  6  - 
+LCP FDT  1   0  LCP FDT  1   0  LCP FDT  1   0  TTR TRT  1   0  EAT FDT  0   0  TTR TRT  1   0  
+ 1  2   PHO  1  2    PAT   -  -  -  -  -  -  4  6  - 
+LCP FDT  1   0  LCP FDT  1   0  LCP FDT  1   0  TTR TRT  1   0  EAT FDT  0   0  TTR TRT  1   0  
+ 1  1   PHO  0  2    PAT   -  -  -  -  -  -  4  6  - 
+LCP FDT  1   0  LCP FDT  1   1  LCP FDT  1   0  TTR TRT  1   0  EAT FDT  0   0  TTR TRT  1   0  
+ 1  1   PHO  0  2    PAT   -  -  -  -  -  -  4  6  - 
+LCP FDT  1   0  EAT FDT  1   1  LCP FDT  1   0  TTR TRT  1   0  EAT FDT  0   0  TTR TRT  1   0  
+ 1  1   LBC  1  2    PAT   -  -  -  -  -  -  4  6  - 
+LCP FDT  1   0  EAT FDT  1   1  LCP FDT  1   0  TTR TRT  1   0  EAT FDT  0   0  TTR TRT  1   0  
+ 1  1   PHO  1  2    PAT   -  -  -  -  -  -  4  6  - 
+LCP FDT  1   0  EAT FDT  1   1  LCP FDT  1   0  TTR TRT  1   0  EAT FDT  0   0  TTR TRT  1   0  
+ 1  0   PHO  0  2    PAT   -  -  -  -  -  -  4  6  - 
+LCP FDT  1   0  EAT FDT  1   1  LCP FDT  1   1  TTR TRT  1   0  EAT FDT  0   0  TTR TRT  1   0  
+ 1  0   PHO  0  2    PAT   -  -  -  -  -  -  4  6  - 
+LCP FDT  1   0  EAT FDT  1   1  EAT FDT  1   1  TTR TRT  1   0  EAT FDT  0   0  TTR TRT  1   0  
+ 1  0   LBC  1  2    PAT   -  -  -  -  -  -  4  6  - 
+LCP FDT  1   0  EAT FDT  1   1  EAT FDT  1   1  TTR TRT  1   0  EAT FDT  0   0  TTR TRT  1   0  
+ 1  0   WPL  1  2    PAT   -  -  -  -  -  -  4  6  - 
+LCP FDT  1   0  EAT FDT  1   1  EAT FDT  1   1  TTR TRT  1   0  EAT FDT  0   0  TTR TRT  1   0  
+ 1  0   WPL  0  2    PAT   -  -  -  -  -  -  4  6  - 
+LCP FDT  1   1  EAT FDT  1   1  EAT FDT  1   1  TTR TRT  1   0  EAT FDT  0   0  TTR TRT  1   0  
+ 1  0   WPL  0  2    PAT   -  -  -  -  -  -  4  6  - 
+EAT FDT  1   1  EAT FDT  1   1  EAT FDT  1   1  TTR TRT  1   0  EAT FDT  0   0  TTR TRT  1   0  
+ 1  0   WPL  0  2    DRF   -  -  -  -  -  -  4  6  - 
+EAT FDT  1   1  EAT FDT  1   1  EAT FDT  1   1  TTR TRT  1   0  EAT FDT  0   0  TTR TRT  1   0  
+ 1  0   WPL  0  2    PDT   -  -  -  -  -  -  4  6  - 
+EAT FDT  1   1  EAT FDT  1   1  EAT FDT  1   1  TTR TRT  1   0  EAT FDT  0   0  TTR TRT  1   0  
+ 1  0   WPL  0  2    PDT   -  -  -  -  -  -  6  -  - 
+EAT FDT  1   1  EAT FDT  1   1  EAT FDT  1   1  DTT TRT  1   0  EAT FDT  0   0  TTR TRT  1   0  
+ 1  0   WPL  0  2    PDT   -  -  -  -  -  -  6  -  - 
+EAT FDT  1   1  EAT FDT  1   1  EAT FDT  1   1  EDT TRT  1   0  EAT FDT  0   0  TTR TRT  1   0  
+ 1  0   WPL  0  2    PDT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  EAT FDT  1   1  EAT FDT  1   1  EDT TRT  1   0  EAT FDT  0   0  DTT TRT  1   0  
+ 1  0   WPL  0  2    PDT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  EAT FDT  1   1  EAT FDT  1   1  EDT TRT  1   0  EAT FDT  0   0  EDT TRT  1   0  
+ 1  0   WPL  0  2    DRB   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  EAT FDT  1   1  EAT FDT  1   1  EDT TRT  1   0  EAT FDT  0   0  EDT TRT  1   0  
+ 2  4   WPL  0  2    PAT   -  -  -  -  -  -  -  -  - 
+--- ---  0   0  --- ---  1   0  --- ---  1   0  --- ---  0   0  --- ---  1   0  --- ---  1   0  
+ 2  4   WPL  0  2    PAT   -  -  -  -  -  -  -  -  - 
+DZO TRT  0   0  --- ---  1   0  --- ---  1   0  --- ---  0   0  --- ---  1   0  --- ---  1   0  
+ 2  4   WPL  0  2    PAT   1  -  -  -  -  -  -  -  - 
+ATT TRT  0   0  --- ---  1   0  --- ---  1   0  --- ---  0   0  --- ---  1   0  --- ---  1   0  
+ 2  4   WPL  0  2    PAT   1  -  -  -  -  -  -  -  - 
+ATT TRT  0   0  --- ---  1   0  DZO TRT  1   0  --- ---  0   0  --- ---  1   0  --- ---  1   0  
+ 2  4   WPL  0  2    PAT   -  -  -  -  -  -  -  -  - 
+ATT TRT  0   0  DZO TRT  1   0  DZO TRT  1   0  --- ---  0   0  --- ---  1   0  --- ---  1   0  
+ 2  4   WPL  0  2    PAT   -  -  -  -  -  -  1  -  - 
+TTR TRT  0   0  DZO TRT  1   0  DZO TRT  1   0  --- ---  0   0  --- ---  1   0  --- ---  1   0  
+ 2  4   WPL  0  2    PAT   -  -  -  -  -  -  1  -  - 
+TTR TRT  0   0  DZO TRT  1   0  DZO TRT  1   0  --- ---  0   0  --- ---  1   0  DZO FDT  1   0  
+ 2  4   WPL  0  2    PAT   -  -  -  -  -  -  1  -  - 
+TTR TRT  0   0  DZO TRT  1   0  DZO TRT  1   0  --- ---  0   0  --- ---  1   0  LCP FDT  1   0  
+ 2  4   WPL  0  2    PAT   2  -  -  -  -  -  1  -  - 
+TTR TRT  0   0  ATT TRT  1   0  DZO TRT  1   0  --- ---  0   0  --- ---  1   0  LCP FDT  1   0  
+ 2  4   WPL  0  2    PAT   2  -  -  -  -  -  1  -  - 
+TTR TRT  0   0  ATT TRT  1   0  DZO TRT  1   0  --- ---  0   0  DZO TRT  1   0  LCP FDT  1   0  
+ 2  4   WPL  0  2    PAT   -  -  -  -  -  -  1  -  - 
+TTR TRT  0   0  ATT TRT  1   0  DZO TRT  1   0  DZO FDT  0   0  DZO TRT  1   0  LCP FDT  1   0  
+ 2  4   WPL  0  2    PAT   -  -  -  -  -  -  1  -  - 
+TTR TRT  0   0  ATT TRT  1   0  DZO TRT  1   0  EAT FDT  0   0  DZO TRT  1   0  LCP FDT  1   0  
+ 2  4   WPL  0  2    PAT   -  -  -  -  -  -  1  -  - 
+TTR TRT  0   0  ATT TRT  1   0  DZO TRT  1   0  EAT FDT  0   0  DZO TRT  1   0  LCP FDT  1   0  
+ 2  4   PHO  0  2    PAT   -  -  -  -  -  -  1  2  - 
+TTR TRT  0   0  ATT TRT  1   0  DZO TRT  1   0  EAT FDT  0   0  DZO TRT  1   0  LCP FDT  1   0  
+ 2  4   PHO  0  2    PAT   -  -  -  -  -  -  1  2  - 
+TTR TRT  0   0  ATT TRT  1   0  DZO TRT  1   0  EAT FDT  0   0  DZO TRT  1   0  LCP FDT  1   0  
+ 2  3   STR  0  2    PAT   -  -  -  -  -  -  1  2  - 
+TTR TRT  0   0  ATT TRT  1   0  DZO TRT  1   0  EAT FDT  0   0  DZO TRT  1   0  LCP FDT  1   0  
+ 2  3   PHO  0  3    PAT   -  -  -  -  -  -  1  2  - 
+TTR TRT  0   0  ATT TRT  1   0  DZO TRT  1   0  EAT FDT  0   0  DZO TRT  1   0  LCP FDT  1   0  
+ 2  2   STR  0  3    PAT   -  -  -  -  -  -  1  2  - 
+TTR TRT  0   0  ATT TRT  1   0  DZO TRT  1   0  EAT FDT  0   0  DZO TRT  1   0  LCP FDT  1   0  
+ 2  2   PHO  0  4    PAT   -  -  -  -  -  -  1  2  - 
+TTR TRT  0   0  ATT TRT  1   0  DZO TRT  1   0  EAT FDT  0   0  DZO TRT  1   0  LCP FDT  1   0  
+ 2  1   STR  0  4    PAT   -  -  -  -  -  -  1  2  - 
+TTR TRT  0   0  ATT TRT  1   0  DZO TRT  1   0  EAT FDT  0   0  DZO TRT  1   0  LCP FDT  1   0  
+ 2  1   STR  0  4    PAT   -  -  -  -  -  -  1  2  - 
+TTR TRT  0   0  TTR TRT  1   0  DZO TRT  1   0  EAT FDT  0   0  DZO TRT  1   0  LCP FDT  1   0  
+ 2  1   PHO  0  4    PAT   -  -  -  -  -  -  1  2  - 
+TTR TRT  0   0  TTR TRT  1   0  DZO TRT  1   0  EAT FDT  0   0  DZO TRT  1   0  LCP FDT  1   0  
+ 2  0   PHO  0  4    PAT   3  -  -  -  -  -  1  2  - 
+TTR TRT  0   0  TTR TRT  1   0  ATT TRT  1   0  EAT FDT  0   0  DZO TRT  1   0  LCP FDT  1   0  
+ 2  0   LBC  1  4    PAT   3  -  -  -  -  -  1  2  - 
+TTR TRT  0   0  TTR TRT  1   0  ATT TRT  1   0  EAT FDT  0   0  DZO TRT  1   0  LCP FDT  1   0  
+ 2  0   WPL  1  4    PAT   3  -  -  -  -  -  1  2  - 
+TTR TRT  0   0  TTR TRT  1   0  ATT TRT  1   0  EAT FDT  0   0  DZO TRT  1   0  LCP FDT  1   0  
+ 2  0   WPL  0  4    PAT   -  -  -  -  -  -  1  2  - 
+TTR TRT  0   0  TTR TRT  1   0  ATT TRT  1   0  EAT FDT  0   0  DZO TRT  1   0  LCP FDT  1   1  
+ 2  0   WPL  0  4    PAT   -  -  -  -  -  -  1  2  - 
+TTR TRT  0   0  TTR TRT  1   0  ATT TRT  1   0  EAT FDT  0   0  DZO TRT  1   0  EAT FDT  1   1  
+ 2  0   WPL  0  4    PAT   -  -  -  -  -  -  1  2  3 
+TTR TRT  0   0  TTR TRT  1   0  TTR TRT  1   0  EAT FDT  0   0  DZO TRT  1   0  EAT FDT  1   1  
+ 2  0   WPL  0  4    PAT   5  -  -  -  -  -  1  2  3 
+TTR TRT  0   0  TTR TRT  1   0  TTR TRT  1   0  EAT FDT  0   0  ATT TRT  1   0  EAT FDT  1   1  
+ 2  0   WPL  0  4    DRF   5  -  -  -  -  -  1  2  3 
+TTR TRT  0   0  TTR TRT  1   0  TTR TRT  1   0  EAT FDT  0   0  ATT TRT  1   0  EAT FDT  1   1  
+ 2  0   WPL  0  4    PDT   5  -  -  -  -  -  1  2  3 
+TTR TRT  0   0  TTR TRT  1   0  TTR TRT  1   0  EAT FDT  0   0  ATT TRT  1   0  EAT FDT  1   1  
+ 2  0   WPL  0  4    PDT   5  -  -  -  -  -  2  3  - 
+DTT TRT  0   0  TTR TRT  1   0  TTR TRT  1   0  EAT FDT  0   0  ATT TRT  1   0  EAT FDT  1   1  
+ 2  0   WPL  0  4    PDT   5  -  -  -  -  -  2  3  - 
+EDT TRT  0   0  TTR TRT  1   0  TTR TRT  1   0  EAT FDT  0   0  ATT TRT  1   0  EAT FDT  1   1  
+ 2  0   WPL  0  4    PDT   5  -  -  -  -  -  2  -  - 
+EDT TRT  0   0  TTR TRT  1   0  DTT TRT  1   0  EAT FDT  0   0  ATT TRT  1   0  EAT FDT  1   1  
+ 2  0   WPL  0  4    PDT   5  -  -  -  -  -  2  -  - 
+EDT TRT  0   0  TTR TRT  1   0  EDT TRT  1   0  EAT FDT  0   0  ATT TRT  1   0  EAT FDT  1   1  
+ 2  0   WPL  0  4    PDT   5  -  -  -  -  -  -  -  - 
+EDT TRT  0   0  DTT TRT  1   0  EDT TRT  1   0  EAT FDT  0   0  ATT TRT  1   0  EAT FDT  1   1  
+ 2  0   WPL  0  4    PDT   5  -  -  -  -  -  -  -  - 
+EDT TRT  0   0  EDT TRT  1   0  EDT TRT  1   0  EAT FDT  0   0  ATT TRT  1   0  EAT FDT  1   1  
+ 2  0   WPL  0  4    DRB   5  -  -  -  -  -  -  -  - 
+EDT TRT  0   0  EDT TRT  1   0  EDT TRT  1   0  EAT FDT  0   0  ATT TRT  1   0  EAT FDT  1   1  
+ 2  0   WPL  0  4    PAT   5  -  -  -  -  -  -  -  - 
+EDT TRT  0   0  EDT TRT  1   0  EDT TRT  1   0  EAT FDT  0   0  ATT TRT  1   0  EAT FDT  1   1  
+ 2  0   WPL  0  4    PAT   -  -  -  -  -  -  5  -  - 
+EDT TRT  0   0  EDT TRT  1   0  EDT TRT  1   0  EAT FDT  0   0  TTR TRT  1   0  EAT FDT  1   1  
+ 2  0   WPL  0  4    DRF   -  -  -  -  -  -  5  -  - 
+EDT TRT  0   0  EDT TRT  1   0  EDT TRT  1   0  EAT FDT  0   0  TTR TRT  1   0  EAT FDT  1   1  
+ 2  0   WPL  0  4    PDT   -  -  -  -  -  -  5  -  - 
+EDT TRT  0   0  EDT TRT  1   0  EDT TRT  1   0  EAT FDT  0   0  TTR TRT  1   0  EAT FDT  1   1  
+ 2  0   WPL  0  4    PDT   -  -  -  -  -  -  -  -  - 
+EDT TRT  0   0  EDT TRT  1   0  EDT TRT  1   0  EAT FDT  0   0  DTT TRT  1   0  EAT FDT  1   1  
+ 2  0   WPL  0  4    PDT   -  -  -  -  -  -  -  -  - 
+EDT TRT  0   0  EDT TRT  1   0  EDT TRT  1   0  EAT FDT  0   0  EDT TRT  1   0  EAT FDT  1   1  
+ 2  0   WPL  0  4    DRB   -  -  -  -  -  -  -  -  - 
+EDT TRT  0   0  EDT TRT  1   0  EDT TRT  1   0  EAT FDT  0   0  EDT TRT  1   0  EAT FDT  1   1  
+ 3  8   WPL  0  4    PAT   -  -  -  -  -  -  -  -  - 
+--- ---  2   0  --- ---  0   0  --- ---  0   0  --- ---  2   0  --- ---  2   0  --- ---  2   0  
+ 3  8   WPL  0  4    PAT   -  -  -  -  -  -  -  -  - 
+DZO FDT  2   0  --- ---  0   0  --- ---  0   0  --- ---  2   0  --- ---  2   0  --- ---  2   0  
+ 3  8   WPL  0  4    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  2   0  --- ---  0   0  --- ---  0   0  --- ---  2   0  --- ---  2   0  --- ---  2   0  
+ 3  8   WPL  0  4    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  2   0  --- ---  0   0  DZO FDT  0   0  --- ---  2   0  --- ---  2   0  --- ---  2   0  
+ 3  8   WPL  0  4    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  2   0  --- ---  0   0  EAT FDT  0   0  --- ---  2   0  --- ---  2   0  --- ---  2   0  
+ 3  8   WPL  0  4    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  2   0  --- ---  0   0  EAT FDT  0   0  --- ---  2   0  --- ---  2   0  --- ---  2   0  
+ 3  8   WPL  0  4    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  2   0  DZO FDT  0   0  EAT FDT  0   0  --- ---  2   0  --- ---  2   0  --- ---  2   0  
+ 3  8   WPL  0  4    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  2   0  EAT FDT  0   0  EAT FDT  0   0  --- ---  2   0  --- ---  2   0  --- ---  2   0  
+ 3  8   WPL  0  4    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  2   0  EAT FDT  0   0  EAT FDT  0   0  --- ---  2   0  --- ---  2   0  --- ---  2   0  
+ 3  8   WPL  0  4    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  2   0  EAT FDT  0   0  EAT FDT  0   0  --- ---  2   0  --- ---  2   0  DZO TRT  2   0  
+ 3  8   WPL  0  4    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  2   0  EAT FDT  0   0  EAT FDT  0   0  --- ---  2   0  DZO TRT  2   0  DZO TRT  2   0  
+ 3  8   WPL  0  4    PAT   6  -  -  -  -  -  -  -  - 
+LCP FDT  2   0  EAT FDT  0   0  EAT FDT  0   0  --- ---  2   0  DZO TRT  2   0  ATT TRT  2   0  
+ 3  8   WPL  0  4    PAT   6  -  -  -  -  -  -  -  - 
+LCP FDT  2   0  EAT FDT  0   0  EAT FDT  0   0  DZO TRT  2   0  DZO TRT  2   0  ATT TRT  2   0  
+ 3  8   PHO  0  4    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  2   0  EAT FDT  0   0  EAT FDT  0   0  DZO TRT  2   0  DZO TRT  2   0  ATT TRT  2   0  
+ 3  8   PHO  0  4    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  2   0  EAT FDT  0   0  EAT FDT  0   0  DZO TRT  2   0  DZO TRT  2   0  ATT TRT  2   0  
+ 3  7   PHO  0  4    PAT   -  -  -  -  -  -  6  -  - 
+LCP FDT  2   0  EAT FDT  0   0  EAT FDT  0   0  DZO TRT  2   0  DZO TRT  2   0  TTR TRT  2   0  
+ 3  7   STR  0  4    PAT   -  -  -  -  -  -  6  -  - 
+LCP FDT  2   0  EAT FDT  0   0  EAT FDT  0   0  DZO TRT  2   0  DZO TRT  2   0  TTR TRT  2   0  
+ 3  7   STR  0  4    PAT   5  -  -  -  -  -  6  -  - 
+LCP FDT  2   0  EAT FDT  0   0  EAT FDT  0   0  DZO TRT  2   0  ATT TRT  2   0  TTR TRT  2   0  
+ 3  7   PHO  0  5    PAT   5  -  -  -  -  -  6  -  - 
+LCP FDT  2   0  EAT FDT  0   0  EAT FDT  0   0  DZO TRT  2   0  ATT TRT  2   0  TTR TRT  2   0  
+ 3  6   STR  0  5    PAT   -  -  -  -  -  -  6  -  - 
+LCP FDT  2   0  EAT FDT  0   0  EAT FDT  0   0  DZO TRT  2   0  ATT TRT  2   0  TTR TRT  2   0  
+ 3  6   STR  0  5    PAT   -  -  -  -  -  -  6  5  - 
+LCP FDT  2   0  EAT FDT  0   0  EAT FDT  0   0  DZO TRT  2   0  TTR TRT  2   0  TTR TRT  2   0  
+ 3  6   PHO  0  6    PAT   -  -  -  -  -  -  6  5  - 
+LCP FDT  2   0  EAT FDT  0   0  EAT FDT  0   0  DZO TRT  2   0  TTR TRT  2   0  TTR TRT  2   0  
+ 3  5   STR  0  6    PAT   4  -  -  -  -  -  6  5  - 
+LCP FDT  2   0  EAT FDT  0   0  EAT FDT  0   0  DZO TRT  2   0  TTR TRT  2   0  TTR TRT  2   0  
+ 3  5   STR  0  6    PAT   4  -  -  -  -  -  6  5  - 
+LCP FDT  2   0  EAT FDT  0   0  EAT FDT  0   0  ATT TRT  2   0  TTR TRT  2   0  TTR TRT  2   0  
+ 3  5   PHO  0  7    PAT   4  -  -  -  -  -  6  5  - 
+LCP FDT  2   0  EAT FDT  0   0  EAT FDT  0   0  ATT TRT  2   0  TTR TRT  2   0  TTR TRT  2   0  
+ 3  4   STR  0  7    PAT   4  -  -  -  -  -  6  5  - 
+LCP FDT  2   0  EAT FDT  0   0  EAT FDT  0   0  ATT TRT  2   0  TTR TRT  2   0  TTR TRT  2   0  
+ 3  4   PHO  0  8    PAT   -  -  -  -  -  -  6  5  - 
+LCP FDT  2   0  EAT FDT  0   0  EAT FDT  0   0  ATT TRT  2   0  TTR TRT  2   0  TTR TRT  2   0  
+ 3  3   STR  0  8    PAT   -  -  -  -  -  -  6  5  - 
+LCP FDT  2   0  EAT FDT  0   0  EAT FDT  0   0  ATT TRT  2   0  TTR TRT  2   0  TTR TRT  2   0  
+ 3  3   PHO  0  9    PAT   -  -  -  -  -  -  6  5  4 
+LCP FDT  2   0  EAT FDT  0   0  EAT FDT  0   0  ATT TRT  2   0  TTR TRT  2   0  TTR TRT  2   0  
+ 3  2   STR  0  9    PAT   -  -  -  -  -  -  6  5  4 
+LCP FDT  2   0  EAT FDT  0   0  EAT FDT  0   0  ATT TRT  2   0  TTR TRT  2   0  TTR TRT  2   0  
+ 3  2   STR  0  9    PAT   -  -  -  -  -  -  6  5  4 
+LCP FDT  2   0  EAT FDT  0   0  EAT FDT  0   0  TTR TRT  2   0  TTR TRT  2   0  TTR TRT  2   0  
+ 3  2   PHO  0 10    PAT   -  -  -  -  -  -  6  5  4 
+LCP FDT  2   0  EAT FDT  0   0  EAT FDT  0   0  TTR TRT  2   0  TTR TRT  2   0  TTR TRT  2   0  
+ 3  1   LBC  1 10    PAT   -  -  -  -  -  -  6  5  4 
+LCP FDT  2   0  EAT FDT  0   0  EAT FDT  0   0  TTR TRT  2   0  TTR TRT  2   0  TTR TRT  2   0  
+ 3  1   PHO  1 10    PAT   -  -  -  -  -  -  6  5  4 
+LCP FDT  2   0  EAT FDT  0   0  EAT FDT  0   0  TTR TRT  2   0  TTR TRT  2   0  TTR TRT  2   0  
+ 3  0   PHO  0 10    PAT   -  -  -  -  -  -  6  5  4 
+LCP FDT  2   1  EAT FDT  0   0  EAT FDT  0   0  TTR TRT  2   0  TTR TRT  2   0  TTR TRT  2   0  
+ 3  0   LBC  1 10    PAT   -  -  -  -  -  -  6  5  4 
+LCP FDT  2   1  EAT FDT  0   0  EAT FDT  0   0  TTR TRT  2   0  TTR TRT  2   0  TTR TRT  2   0  
+ 3  0   WPL  1 10    PAT   -  -  -  -  -  -  6  5  4 
+LCP FDT  2   1  EAT FDT  0   0  EAT FDT  0   0  TTR TRT  2   0  TTR TRT  2   0  TTR TRT  2   0  
+ 3  0   WPL  1 10    PAT   -  -  -  -  -  -  6  5  4 
+BRO FDT  2   1  EAT FDT  0   0  EAT FDT  0   0  TTR TRT  2   0  TTR TRT  2   0  TTR TRT  2   0  
+ 3  0   WPL  1 10    PAT   -  -  -  -  -  -  6  5  4 
+EAT FDT  2   1  EAT FDT  0   0  EAT FDT  0   0  TTR TRT  2   0  TTR TRT  2   0  TTR TRT  2   0  
+ 3  0   WPL  1 10    DRF   -  -  -  -  -  -  6  5  4 
+EAT FDT  2   1  EAT FDT  0   0  EAT FDT  0   0  TTR TRT  2   0  TTR TRT  2   0  TTR TRT  2   0  
+ 3  0   WPL  1 10    PDT   -  -  -  -  -  -  6  5  4 
+EAT FDT  2   1  EAT FDT  0   0  EAT FDT  0   0  TTR TRT  2   0  TTR TRT  2   0  TTR TRT  2   0  
+ 3  0   WPL  1 10    PDT   -  -  -  -  -  -  5  4  - 
+EAT FDT  2   1  EAT FDT  0   0  EAT FDT  0   0  TTR TRT  2   0  TTR TRT  2   0  DTT TRT  2   0  
+ 3  0   WPL  1 10    PDT   -  -  -  -  -  -  5  4  - 
+EAT FDT  2   1  EAT FDT  0   0  EAT FDT  0   0  TTR TRT  2   0  TTR TRT  2   0  EDT TRT  2   0  
+ 3  0   WPL  1 10    PDT   -  -  -  -  -  -  5  -  - 
+EAT FDT  2   1  EAT FDT  0   0  EAT FDT  0   0  DTT TRT  2   0  TTR TRT  2   0  EDT TRT  2   0  
+ 3  0   WPL  1 10    PDT   -  -  -  -  -  -  5  -  - 
+EAT FDT  2   1  EAT FDT  0   0  EAT FDT  0   0  EDT TRT  2   0  TTR TRT  2   0  EDT TRT  2   0  
+ 3  0   WPL  1 10    PDT   -  -  -  -  -  -  -  -  - 
+EAT FDT  2   1  EAT FDT  0   0  EAT FDT  0   0  EDT TRT  2   0  DTT TRT  2   0  EDT TRT  2   0  
+ 3  0   WPL  1 10    PDT   -  -  -  -  -  -  -  -  - 
+EAT FDT  2   1  EAT FDT  0   0  EAT FDT  0   0  EDT TRT  2   0  EDT TRT  2   0  EDT TRT  2   0  
+ 3  0   WPL  1 10    DRB   -  -  -  -  -  -  -  -  - 
+EAT FDT  2   1  EAT FDT  0   0  EAT FDT  0   0  EDT TRT  2   0  EDT TRT  2   0  EDT TRT  2   0  
+ 4  9   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+--- ---  1   0  --- ---  2   0  --- ---  0   0  --- ---  2   0  --- ---  2   0  --- ---  2   0  
+ 4  9   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+DZO FDT  1   0  --- ---  2   0  --- ---  0   0  --- ---  2   0  --- ---  2   0  --- ---  2   0  
+ 4  9   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  1   0  --- ---  2   0  --- ---  0   0  --- ---  2   0  --- ---  2   0  --- ---  2   0  
+ 4  9   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  1   0  DZO FDT  2   0  --- ---  0   0  --- ---  2   0  --- ---  2   0  --- ---  2   0  
+ 4  9   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  1   0  LCP FDT  2   0  --- ---  0   0  --- ---  2   0  --- ---  2   0  --- ---  2   0  
+ 4  9   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  1   0  LCP FDT  2   0  --- ---  0   0  --- ---  2   0  DZO FDT  2   0  --- ---  2   0  
+ 4  9   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  1   0  LCP FDT  2   0  --- ---  0   0  --- ---  2   0  LCP FDT  2   0  --- ---  2   0  
+ 4  9   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  1   0  LCP FDT  2   0  --- ---  0   0  DZO FDT  2   0  LCP FDT  2   0  --- ---  2   0  
+ 4  9   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  1   0  LCP FDT  2   0  --- ---  0   0  LCP FDT  2   0  LCP FDT  2   0  --- ---  2   0  
+ 4  9   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  1   0  LCP FDT  2   0  DZO FDT  0   0  LCP FDT  2   0  LCP FDT  2   0  --- ---  2   0  
+ 4  9   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  1   0  LCP FDT  2   0  EAT FDT  0   0  LCP FDT  2   0  LCP FDT  2   0  --- ---  2   0  
+ 4  9   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  1   0  LCP FDT  2   0  EAT FDT  0   0  LCP FDT  2   0  LCP FDT  2   0  --- ---  2   0  
+ 4  9   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  1   0  LCP FDT  2   0  EAT FDT  0   0  LCP FDT  2   0  LCP FDT  2   0  DZO FDT  2   0  
+ 4  9   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  1   0  LCP FDT  2   0  EAT FDT  0   0  LCP FDT  2   0  LCP FDT  2   0  LCP FDT  2   0  
+ 4  9   PHO  1 10    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  1   0  LCP FDT  2   0  EAT FDT  0   0  LCP FDT  2   0  LCP FDT  2   0  LCP FDT  2   0  
+ 4  9   PHO  1 10    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  1   0  LCP FDT  2   0  EAT FDT  0   0  LCP FDT  2   0  LCP FDT  2   0  LCP FDT  2   0  
+ 4  8   LBC  1 10    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  1   0  LCP FDT  2   0  EAT FDT  0   0  LCP FDT  2   0  LCP FDT  2   0  LCP FDT  2   0  
+ 4  8   PHO  1 10    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  1   0  LCP FDT  2   0  EAT FDT  0   0  LCP FDT  2   0  LCP FDT  2   0  LCP FDT  2   0  
+ 4  7   PHO  0 10    PAT   -  -  -  -  -  -  -  -  - 
+LCP FDT  1   1  LCP FDT  2   0  EAT FDT  0   0  LCP FDT  2   0  LCP FDT  2   0  LCP FDT  2   0  
+ 4  7   PHO  0 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  LCP FDT  2   0  EAT FDT  0   0  LCP FDT  2   0  LCP FDT  2   0  LCP FDT  2   0  
+ 4  7   LBC  0 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  LCP FDT  2   0  EAT FDT  0   0  LCP FDT  2   0  LCP FDT  2   0  LCP FDT  2   0  
+ 4  7   PHO  0 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  LCP FDT  2   0  EAT FDT  0   0  LCP FDT  2   0  LCP FDT  2   0  LCP FDT  2   0  
+ 4  6   LBC  1 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  LCP FDT  2   0  EAT FDT  0   0  LCP FDT  2   0  LCP FDT  2   0  LCP FDT  2   0  
+ 4  6   PHO  1 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  LCP FDT  2   0  EAT FDT  0   0  LCP FDT  2   0  LCP FDT  2   0  LCP FDT  2   0  
+ 4  5   PHO  0 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  LCP FDT  2   0  EAT FDT  0   0  LCP FDT  2   1  LCP FDT  2   0  LCP FDT  2   0  
+ 4  5   LBC  1 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  LCP FDT  2   0  EAT FDT  0   0  LCP FDT  2   1  LCP FDT  2   0  LCP FDT  2   0  
+ 4  5   PHO  1 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  LCP FDT  2   0  EAT FDT  0   0  LCP FDT  2   1  LCP FDT  2   0  LCP FDT  2   0  
+ 4  5   PHO  0 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  LCP FDT  2   0  EAT FDT  0   0  LCP FDT  2   2  LCP FDT  2   0  LCP FDT  2   0  
+ 4  4   PHO  0 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  LCP FDT  2   0  EAT FDT  0   0  EAT FDT  2   2  LCP FDT  2   0  LCP FDT  2   0  
+ 4  4   LBC  1 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  LCP FDT  2   0  EAT FDT  0   0  EAT FDT  2   2  LCP FDT  2   0  LCP FDT  2   0  
+ 4  4   PHO  1 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  LCP FDT  2   0  EAT FDT  0   0  EAT FDT  2   2  LCP FDT  2   0  LCP FDT  2   0  
+ 4  3   PHO  0 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  LCP FDT  2   0  EAT FDT  0   0  EAT FDT  2   2  LCP FDT  2   1  LCP FDT  2   0  
+ 4  3   LBC  0 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  LCP FDT  2   0  EAT FDT  0   0  EAT FDT  2   2  LCP FDT  2   1  LCP FDT  2   0  
+ 4  3   PHO  0 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  LCP FDT  2   0  EAT FDT  0   0  EAT FDT  2   2  LCP FDT  2   1  LCP FDT  2   0  
+ 4  2   LBC  0 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  LCP FDT  2   0  EAT FDT  0   0  EAT FDT  2   2  LCP FDT  2   1  LCP FDT  2   0  
+ 4  2   PHO  0 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  LCP FDT  2   0  EAT FDT  0   0  EAT FDT  2   2  LCP FDT  2   1  LCP FDT  2   0  
+ 4  1   LBC  1 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  LCP FDT  2   0  EAT FDT  0   0  EAT FDT  2   2  LCP FDT  2   1  LCP FDT  2   0  
+ 4  1   PHO  1 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  LCP FDT  2   0  EAT FDT  0   0  EAT FDT  2   2  LCP FDT  2   1  LCP FDT  2   0  
+ 4  0   PHO  0 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  LCP FDT  2   1  EAT FDT  0   0  EAT FDT  2   2  LCP FDT  2   1  LCP FDT  2   0  
+ 4  0   PHO  0 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  BRO FDT  2   1  EAT FDT  0   0  EAT FDT  2   2  LCP FDT  2   1  LCP FDT  2   0  
+ 4  0   LBC  1 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  BRO FDT  2   1  EAT FDT  0   0  EAT FDT  2   2  LCP FDT  2   1  LCP FDT  2   0  
+ 4  0   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  BRO FDT  2   1  EAT FDT  0   0  EAT FDT  2   2  LCP FDT  2   1  LCP FDT  2   0  
+ 4  0   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  BRO FDT  2   1  EAT FDT  0   0  EAT FDT  2   2  LCP FDT  2   1  BRO FDT  2   0  
+ 4  0   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  EAT FDT  2   1  EAT FDT  0   0  EAT FDT  2   2  LCP FDT  2   1  BRO FDT  2   0  
+ 4  0   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  EAT FDT  2   1  EAT FDT  0   0  EAT FDT  2   2  BRO FDT  2   1  BRO FDT  2   0  
+ 4  0   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  EAT FDT  2   1  EAT FDT  0   0  EAT FDT  2   2  BRO FDT  2   1  EAT FDT  2   0  
+ 4  0   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  1   1  EAT FDT  2   1  EAT FDT  0   0  EAT FDT  2   2  EAT FDT  2   1  EAT FDT  2   0  
+ 5  6   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+DZO FDT  0   0  --- ---  2   0  --- ---  1   0  --- ---  1   0  --- ---  2   0  --- ---  0   0  
+ 5  6   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  0   0  --- ---  2   0  --- ---  1   0  --- ---  1   0  --- ---  2   0  --- ---  0   0  
+ 5  6   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  0   0  --- ---  2   0  --- ---  1   0  --- ---  1   0  --- ---  2   0  --- ---  0   0  
+ 5  6   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  0   0  DZO FDT  2   0  --- ---  1   0  --- ---  1   0  --- ---  2   0  --- ---  0   0  
+ 5  6   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  0   0  LCP FDT  2   0  --- ---  1   0  --- ---  1   0  --- ---  2   0  --- ---  0   0  
+ 5  6   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  0   0  LCP FDT  2   0  --- ---  1   0  --- ---  1   0  --- ---  2   0  DZO FDT  0   0  
+ 5  6   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  0   0  LCP FDT  2   0  --- ---  1   0  --- ---  1   0  --- ---  2   0  EAT FDT  0   0  
+ 5  6   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  0   0  LCP FDT  2   0  --- ---  1   0  --- ---  1   0  --- ---  2   0  EAT FDT  0   0  
+ 5  6   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  0   0  LCP FDT  2   0  --- ---  1   0  --- ---  1   0  DZO FDT  2   0  EAT FDT  0   0  
+ 5  6   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  0   0  LCP FDT  2   0  --- ---  1   0  --- ---  1   0  LCP FDT  2   0  EAT FDT  0   0  
+ 5  6   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  0   0  LCP FDT  2   0  --- ---  1   0  DZO TRT  1   0  LCP FDT  2   0  EAT FDT  0   0  
+ 5  6   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  0   0  LCP FDT  2   0  DZO TRT  1   0  DZO TRT  1   0  LCP FDT  2   0  EAT FDT  0   0  
+ 5  6   WPL  1 10    PAT   4  -  -  -  -  -  -  -  - 
+EAT FDT  0   0  LCP FDT  2   0  DZO TRT  1   0  ATT TRT  1   0  LCP FDT  2   0  EAT FDT  0   0  
+ 5  6   PHO  1 10    PAT   4  -  -  -  -  -  -  -  - 
+EAT FDT  0   0  LCP FDT  2   0  DZO TRT  1   0  ATT TRT  1   0  LCP FDT  2   0  EAT FDT  0   0  
+ 5  6   PHO  1 10    PAT   4  -  -  -  -  -  -  -  - 
+EAT FDT  0   0  LCP FDT  2   0  DZO TRT  1   0  ATT TRT  1   0  LCP FDT  2   0  EAT FDT  0   0  
+ 5  5   STR  1 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  0   0  LCP FDT  2   0  DZO TRT  1   0  ATT TRT  1   0  LCP FDT  2   0  EAT FDT  0   0  
+ 5  5   STR  1 10    PAT   -  -  -  -  -  -  4  -  - 
+EAT FDT  0   0  LCP FDT  2   0  DZO TRT  1   0  TTR TRT  1   0  LCP FDT  2   0  EAT FDT  0   0  
+ 5  5   PHO  1 10    PAT   -  -  -  -  -  -  4  -  - 
+EAT FDT  0   0  LCP FDT  2   0  DZO TRT  1   0  TTR TRT  1   0  LCP FDT  2   0  EAT FDT  0   0  
+ 5  4   PHO  1 10    PAT   3  -  -  -  -  -  4  -  - 
+EAT FDT  0   0  LCP FDT  2   0  ATT TRT  1   0  TTR TRT  1   0  LCP FDT  2   0  EAT FDT  0   0  
+ 5  4   STR  1 10    PAT   3  -  -  -  -  -  4  -  - 
+EAT FDT  0   0  LCP FDT  2   0  ATT TRT  1   0  TTR TRT  1   0  LCP FDT  2   0  EAT FDT  0   0  
+ 5  4   PHO  1 10    PAT   -  -  -  -  -  -  4  -  - 
+EAT FDT  0   0  LCP FDT  2   0  ATT TRT  1   0  TTR TRT  1   0  LCP FDT  2   0  EAT FDT  0   0  
+ 5  3   PHO  1 10    PAT   -  -  -  -  -  -  4  3  - 
+EAT FDT  0   0  LCP FDT  2   0  TTR TRT  1   0  TTR TRT  1   0  LCP FDT  2   0  EAT FDT  0   0  
+ 5  3   LBC  2 10    PAT   -  -  -  -  -  -  4  3  - 
+EAT FDT  0   0  LCP FDT  2   0  TTR TRT  1   0  TTR TRT  1   0  LCP FDT  2   0  EAT FDT  0   0  
+ 5  3   PHO  2 10    PAT   -  -  -  -  -  -  4  3  - 
+EAT FDT  0   0  LCP FDT  2   0  TTR TRT  1   0  TTR TRT  1   0  LCP FDT  2   0  EAT FDT  0   0  
+ 5  3   PHO  1 10    PAT   -  -  -  -  -  -  4  3  - 
+EAT FDT  0   0  LCP FDT  2   0  TTR TRT  1   0  TTR TRT  1   0  LCP FDT  2   1  EAT FDT  0   0  
+ 5  2   LBC  1 10    PAT   -  -  -  -  -  -  4  3  - 
+EAT FDT  0   0  LCP FDT  2   0  TTR TRT  1   0  TTR TRT  1   0  LCP FDT  2   1  EAT FDT  0   0  
+ 5  2   PHO  1 10    PAT   -  -  -  -  -  -  4  3  - 
+EAT FDT  0   0  LCP FDT  2   0  TTR TRT  1   0  TTR TRT  1   0  LCP FDT  2   1  EAT FDT  0   0  
+ 5  1   LBC  2 10    PAT   -  -  -  -  -  -  4  3  - 
+EAT FDT  0   0  LCP FDT  2   0  TTR TRT  1   0  TTR TRT  1   0  LCP FDT  2   1  EAT FDT  0   0  
+ 5  1   PHO  2 10    PAT   -  -  -  -  -  -  4  3  - 
+EAT FDT  0   0  LCP FDT  2   0  TTR TRT  1   0  TTR TRT  1   0  LCP FDT  2   1  EAT FDT  0   0  
+ 5  1   PHO  1 10    PAT   -  -  -  -  -  -  4  3  - 
+EAT FDT  0   0  LCP FDT  2   1  TTR TRT  1   0  TTR TRT  1   0  LCP FDT  2   1  EAT FDT  0   0  
+ 5  0   LBC  2 10    PAT   -  -  -  -  -  -  4  3  - 
+EAT FDT  0   0  LCP FDT  2   1  TTR TRT  1   0  TTR TRT  1   0  LCP FDT  2   1  EAT FDT  0   0  
+ 5  0   WPL  2 10    PAT   -  -  -  -  -  -  4  3  - 
+EAT FDT  0   0  LCP FDT  2   1  TTR TRT  1   0  TTR TRT  1   0  LCP FDT  2   1  EAT FDT  0   0  
+ 5  0   WPL  1 10    PAT   -  -  -  -  -  -  4  3  - 
+EAT FDT  0   0  LCP FDT  2   2  TTR TRT  1   0  TTR TRT  1   0  LCP FDT  2   1  EAT FDT  0   0  
+ 5  0   WPL  1 10    PAT   -  -  -  -  -  -  4  3  - 
+EAT FDT  0   0  LCP FDT  2   2  TTR TRT  1   0  TTR TRT  1   0  BRO FDT  2   1  EAT FDT  0   0  
+ 5  0   WPL  1 10    PAT   -  -  -  -  -  -  4  3  - 
+EAT FDT  0   0  EAT FDT  2   2  TTR TRT  1   0  TTR TRT  1   0  BRO FDT  2   1  EAT FDT  0   0  
+ 5  0   WPL  1 10    PAT   -  -  -  -  -  -  4  3  - 
+EAT FDT  0   0  EAT FDT  2   2  TTR TRT  1   0  TTR TRT  1   0  EAT FDT  2   1  EAT FDT  0   0  
+ 5  0   WPL  1 10    DRF   -  -  -  -  -  -  4  3  - 
+EAT FDT  0   0  EAT FDT  2   2  TTR TRT  1   0  TTR TRT  1   0  EAT FDT  2   1  EAT FDT  0   0  
+ 5  0   WPL  1 10    PDT   -  -  -  -  -  -  4  3  - 
+EAT FDT  0   0  EAT FDT  2   2  TTR TRT  1   0  TTR TRT  1   0  EAT FDT  2   1  EAT FDT  0   0  
+ 5  0   WPL  1 10    PDT   -  -  -  -  -  -  3  -  - 
+EAT FDT  0   0  EAT FDT  2   2  TTR TRT  1   0  DTT TRT  1   0  EAT FDT  2   1  EAT FDT  0   0  
+ 5  0   WPL  1 10    PDT   -  -  -  -  -  -  3  -  - 
+EAT FDT  0   0  EAT FDT  2   2  TTR TRT  1   0  EDT TRT  1   0  EAT FDT  2   1  EAT FDT  0   0  
+ 5  0   WPL  1 10    PDT   -  -  -  -  -  -  -  -  - 
+EAT FDT  0   0  EAT FDT  2   2  DTT TRT  1   0  EDT TRT  1   0  EAT FDT  2   1  EAT FDT  0   0  
+ 5  0   WPL  1 10    PDT   -  -  -  -  -  -  -  -  - 
+EAT FDT  0   0  EAT FDT  2   2  EDT TRT  1   0  EDT TRT  1   0  EAT FDT  2   1  EAT FDT  0   0  
+ 5  0   WPL  1 10    DRB   -  -  -  -  -  -  -  -  - 
+EAT FDT  0   0  EAT FDT  2   2  EDT TRT  1   0  EDT TRT  1   0  EAT FDT  2   1  EAT FDT  0   0  
+ 5  0   WPL  1 10    PAT   -  -  -  -  -  -  -  -  - 
+EAT FDT  0   0  EAT FDT  2   2  EDT TRT  1   0  EDT TRT  1   0  EAT FDT  2   1  EAT FDT  0   0  
+
+Final Report
+N. of passengers which have this airport as their final destination = 21
+N. of passengers in transit =  9
+N. of bags that should have been transported in the the planes hold = 32
+N. of bags that were lost =  9
